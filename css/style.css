@@ -390,6 +390,7 @@ header {
 
 .fixed-header {
 	opacity: 0.95;
+	background: white;
 	box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
 	-o-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
@@ -566,7 +567,7 @@ ul.social-list li:last-child a i {
 }
 .navbar {
 	margin-bottom: 0;
-	background: #fff;
+	background: transparent;
 	border: none;
 	border-radius: 0;
     -webkit-border-radius: 0;
@@ -601,8 +602,13 @@ ul.social-list li:last-child a i {
     margin-left: 0;
 }
 
+.navbar-default .navbar-brand {
+    color: lightgrey;
+    font-size: 3em;
+}
+
 .navbar-default .navbar-nav > li > a {
-	color: #999;
+	color: lightgrey;
 	display: block;
     font-size: 14px;
 	font-weight: 300;
@@ -615,9 +621,6 @@ ul.social-list li:last-child a i {
     font-weight: 400;
 }
 
-.navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-nav > li:hover > a {
-	border-bottom: 2px solid;
-}
 
 .navbar-default .navbar-nav > li > a i {
 	margin: 0 -2px 0 -5px;
@@ -2033,7 +2036,6 @@ ul.icons-list li i {
 
 .section {
     padding-top: 80px;
-    padding-bottom: 80px;
 }
 
 .service {
