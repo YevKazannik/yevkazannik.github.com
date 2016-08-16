@@ -3135,6 +3135,11 @@ and (max-width : 550px) {
      #portfolio-list li {
       width: 100%;
   }
+
+	  .navbar-default .navbar-brand {
+	    color: lightgrey;
+	    font-size: 1em;
+	}
 }
 
 @media only screen 
@@ -3144,12 +3149,17 @@ and (min-width : 551px){
      #portfolio-list li {
       width: 49.9%;
   }
+	  .navbar-default .navbar-brand {
+	    color: lightgrey;
+	    font-size: 1em;
+	}
 }
 
 @media (min-width: 768px) {
   #portfolio-list li {
       width: 33.21%;
   }
+  
 }
 @media (min-width: 768px) {
     .portfolio-4column #portfolio-list li {
